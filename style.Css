@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+color: black;
+font-size: 50px;
+
+margin-top: 15px;
+}
+#index{ background-image: url(https://www.histoiredechien.fr/wp-content/uploads/2021/03/Header-Image-3.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+position: absolute;
+margin :30px ;
+margin-top: 1px;
+}
+
+
+.box{
+
+    display : flex;
+    width:100%;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 1px;
+   
+    font: size 70px; ;
+}
+
+.box ul{
+    color: black;
+    width:100%;
+    display: flex;
+    justify-content:flex-start;
+    font: larger; ;
+     
+}
+
+.box li{
+    color: black;
+    margin-left: 75px;
+    margin-top: 40px;
+    list-style: none;
+font-size: x-large;
+    
+}
+nav ul li a {
+   color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a :hover{
+color:bisque;
+transition: 4ms;
+}
+SPAN{
+    color: bisque;
+}
+.content{
+    position: absolute;
+    top: 50px;
+    left :50%;
+    transform:translateY(-50)
+}
+h2{
+margin: 10px;
+font-size: 70px;
+margin-top: 70px;
+}
+h3{
+font-size:20px;
+margin-top: 50px;
+}
+input{
+padding: 16px 20px;
+margin: 5px 0 ;
+border :2px solid green;
+border-radius: 4px;
+background-color:rgb(196, 193, 189);
+font-size: 25px;
+border-radius:30px ;
+
+
+}
+input[type=submit]:hover{
+background-color: beige;
+cursor: pointer;
+ border-radius:30px ;
+
+
+
+}
+
+.content{
+margin-top:400PX;
+justify-content: center;
+display:contents ;
+text-align: center;
+
+}
+p{
+    color: white;
+text-align:center;
+font-size: 30px;
+margin: 10px;
+margin-top: 100px;
+
+}
+
+.bigbox{
+ 
+    width:85%;
+    display: flex;
+    background-color: #ebebed;
+    margin:20px;
+ 
+    
+
+
+
+ /* Center and scale the image nicely */
+
+}
+
+.box1, .box2{
+    width:50%;
+}
+
+h4{
+    color: black;
+    font-size: 50px;
+    text-align:left;
+    margin-top: 50px;
+
+}
+.box1 p{
+color: black;
+font-size: 30x;
+margin-top: 10px;
+text-align: left;
+}
+.box1 span{
+color: green;
+}
+.box1 input{
+    color: grey;
+    font-size: 25px;
+
+}
+.box1 input[type=submit]:hover{
+    background-color: rgb(62, 173, 62);
+    cursor: pointer;}
+
+body{
+    background-color:#e8c432 ;
+}
+video{
+    width: 100%;
+    margin-top: 30px;
+}
+ 
+.box2 img {
+    width: 1001PX;
+}
+
+
+
+.section2{
+    width:80%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:0 auto
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border:2px solid rgb(173, 104, 150);
+    border-radius: 25px;
+    align-items: center;
+    height:451px;
+    background-color:rgb(173, 104,150);
+    box-shadow: 10px 10px 52px 1px rgba(191,150,111,0.75);
+    -webkit-box-shadow: 10px 10px 52px 1px rgba(191,150,111,0.75);
+    -moz-box-shadow: 10px 10px 52px 1px rgba(191,150,111,0.75);
+}
+.product :hover{
+border: 2px solid #141414;
+}
+
+.product img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+.product h3{
+    color:white;
+    font-size: 26px;
+}
+.product p{
+    margin-top: 20px;
+}
+
+
+
